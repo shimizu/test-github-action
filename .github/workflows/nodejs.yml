@@ -1,0 +1,10 @@
+name: Node CI
+
+on:
+  push:
+    branches:
+    - master
+    run: |
+      echo "test" >> README.md
+      
+
