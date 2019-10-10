@@ -17,4 +17,4 @@ jobs:
         MIDDLE_NAME: The
         LAST_NAME: Octocat
       run: |
-        echo $MY_VAR > test.txt
+        ls; pwd
