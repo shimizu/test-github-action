@@ -4,7 +4,12 @@ on:
   push:
     branches:
     - master
-    run: |
-      echo "test" >> README.md
-      
 
+      
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+      run: |
+        echo "test" >> README.md
