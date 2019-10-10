@@ -17,4 +17,4 @@ jobs:
         MIDDLE_NAME: The
         LAST_NAME: Octocat
       run: |
-        ls; pwd
+        ls && pwd
